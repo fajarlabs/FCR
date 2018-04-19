@@ -7,7 +7,7 @@ cam=cv2.VideoCapture(0);
 rec=cv2.face.LBPHFaceRecognizer_create();
 
 # baca trainning data
-rec.read('recognizer/trainningData.yml')
+rec.read('trainer/trainningData.yml')
 
 #
 id=0
